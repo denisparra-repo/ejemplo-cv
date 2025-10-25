@@ -278,12 +278,12 @@ h2::after {
     margin-bottom: 1rem;
 }
 
-.portfolio-grid {
+.portafolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
-.portfolio-item {
+.portafolio-item {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
@@ -291,11 +291,11 @@ h2::after {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.portfolio-item:hover {
+.portafolio-item:hover {
     transform: scale(1.05);
     box-shadow: 0 15px 40px rgba(0,0,0,0.2);
 }
-.portfolio-img {
+.portafolio-img {
     width: 100%;
     height: 250px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -305,11 +305,11 @@ h2::after {
     font-size: 4rem;
     color: white;
 }
-.portfolio-info {
+.portafolio-info {
     padding: 1.5rem;
     background: white;
 }
-.portfolio-info h3 {
+.portafolio-info h3 {
     margin-bottom: 0.5rem;
     color: #667eea;
 }
