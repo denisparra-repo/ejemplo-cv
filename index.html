@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<html>
+    <body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="inicio">
+       <div class="content">
+         <img src="./images/perfil.jpg" alt="Foto de perfil" class="profile-img">
+         <h1>Denis Parra</h1>
+         <p class="subtitle">Desarrollador Full Stack</p>
+         <div class="buttons">
+            <a href="#portafolio" class="btn btn-primary">Ver Portafolio</a>
+            <a href="#contacto" class="btn btn-secondary">Contactame</a>
+         </div>
+       </div>
+    </section>
+
+    <section id="habilidades" class="section-white">
+      <h2>Habiliades</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>Desarrollo Web</h3>
+            <p>HTML, CSS, Javascript</p>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Diseño UI/UX</h3>
+            <p>Figma, Photoshop</p>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📱</div>
+            <h3>Desarrollo Mobile</h3>
+            <p>Flutter, Ionic, React Native</p>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <h3>Backend</h3>
+            <p>Python, Spring</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experencia" class="section-gray">
+      <h2>Experiencia</h2>
+      <div class="experience-timeline">
+        <div class="experience-item">
+           <h3>Desarrollador Full Stack - Jalasoft</h3>
+           <p class="experience-date">Abril 2000 - Presente</p>
+        </div>
+      </div>
+      <div class="experience-timeline">
+        <div class="experience-item">
+           <h3>Desarrollador Backend - Patito</h3>
+           <p class="experience-date">Enero 1990 - Marzo 2000</p>
+        </div>
+      </div> 
+    </section>
+
+    <section id="portafolio" class="section-white">
+      <h2>Portafolio</h2>
+      <div class="portafolio-grid">
+        <div class="portafolio-item">
+          <div class="portafolio-img">📊</div>
+          <div class="portafolio-info">
+             <h3>Dashboard Analitico</h3>
+             <p>Panel de control cons visualizacion de datos en tiempo real</p>
+          </div>
+        </div>
+        <div class="portafolio-item">
+          <div class="portafolio-img">🎮</div>
+          <div class="portafolio-info">
+             <h3>Plataforma de Juegos</h3>
+             <p>Plataforma de juegos bien chevere</p>
+          </div>
+        </div>
+        <div class="portafolio-item">
+          <div class="portafolio-img">🍕</div>
+          <div class="portafolio-info">
+             <h3>Aplicacion de Delivery</h3>
+             <p>Apliacion de Delivery con ubicacion en tiempo real</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section-gray">
+      <h2>Contacto</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+    </section>
+    <footer>
+        <div class="social-links">
+          <a href="#" title="LinkedIn">🔗</a>
+          <a href="#" title="Github">💻</a>
+        </div>
+        <p> 2025 Tsoft. Todos los derehos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
